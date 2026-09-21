@@ -19,9 +19,10 @@ print(new_word)
 
 # 4. В строке "Ivanou Ivan" поменяйте местами слова: "Ivanou Ivan" => "Ivan Ivanou"
 name = 'Ivanou Ivan'
-replace = name.replace ('Ivanou Ivan', 'Ivan Ivanou')
+parts = name.split()
+new_name = parts[1] + " " + parts[0]
 
-print(replace)
+print(new_name)
 
 # 5. Напишите программу, которая удаляет пробел в начале и в конце строки
 title = ' Мальчик в полосатой пижаме '
