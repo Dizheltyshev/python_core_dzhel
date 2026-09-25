@@ -6,12 +6,12 @@ test_skipped = 0
 number = int(input("Введите количество автотестов: "))
 
 for number in range(number):
-    status = input(f"Результат теста №{number + 1}: ")
-    if status == "pass":
+    status = input(f"Результат теста №{number + 1}: ").upper()
+    if status == "PASS":
         test_passed += 1
-    elif status == "fail":
+    elif status == "FAIL":
         test_failed += 1
-    elif status == "skip":
+    elif status == "SKIP":
         test_skipped += 1
     else:
         print("Неизвестный статус, пропускаю")
