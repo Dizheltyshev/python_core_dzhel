@@ -1,0 +1,27 @@
+[
+    {
+        "login": "Bingo",
+        "password": "4321",
+        "status": "active"
+    },
+    {
+        "login": "Dane",
+        "password": "1233",
+        "status": "active"
+    },
+    {
+        "login": "deadok",
+        "password": "1234",
+        "status": "blocked"
+    },
+    {
+        "login": "jarmell",
+        "password": "4322",
+        "status": "active"
+    },
+    {
+        "login": "jasper",
+        "password": "123456",
+        "status": "blocked"
+    }
+]
