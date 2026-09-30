@@ -1,12 +1,12 @@
 from functools import reduce
 
 tests = [
-    {"name": "test_signup", "status": "PASS", "time": 1.4},
-    {"name": "test_login", "status": "PASS", "time": 0.8},
-    {"name": "test_logout", "status": "SKIP", "time": 1.8},
-    {"name": "test_cart", "status": "FAIL", "time": 1.2},
-    {"name": "test_news", "status": "PASS", "time": 2.1},
-    {"name": "test_delete_order", "status": "FAIL", "time": 2.5}
+    {"name": "test_signup", "status": "PASS", "time": 2},
+    {"name": "test_login", "status": "PASS", "time": 1},
+    {"name": "test_logout", "status": "SKIP", "time": 3},
+    {"name": "test_cart", "status": "FAIL", "time": 4},
+    {"name": "test_news", "status": "PASS", "time": 2},
+    {"name": "test_delete_order", "status": "FAIL", "time": 3}
 ]
 
 failed_tests = list(filter(lambda t: t["status"] == "FAIL", tests))
