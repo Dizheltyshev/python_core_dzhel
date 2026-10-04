@@ -1,0 +1,27 @@
+[
+    {
+        "name": "sign_up",
+        "status": "PASS",
+        "time_wasted": 2
+    },
+    {
+        "name": "profile",
+        "status": "PASS",
+        "time_wasted": 3
+    },
+    {
+        "name": "shopping_cart",
+        "status": "FAIL",
+        "time_wasted": 7
+    },
+    {
+        "name": "payment",
+        "status": "FAIL",
+        "time_wasted": 1
+    },
+    {
+        "name": "logout",
+        "status": "SKIP",
+        "time_wasted": 2
+    }
+]

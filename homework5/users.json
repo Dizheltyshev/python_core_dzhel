@@ -1,0 +1,27 @@
+[
+    {
+        "login": "Bingo",
+        "password": "4321",
+        "expected_result": "SUCCESS"
+    },
+    {
+        "login": "Dane",
+        "password": "1233",
+        "expected_result": "FAIL"
+    },
+    {
+        "login": "deadok",
+        "password": "1234",
+        "expected_result": "SUCCESS"
+    },
+    {
+        "login": "jarmell",
+        "password": "4322",
+        "expected_result": "FAIL"
+    },
+    {
+        "login": "jasper",
+        "password": "123456",
+        "expected_result": "SUCCESS"
+    }
+]
