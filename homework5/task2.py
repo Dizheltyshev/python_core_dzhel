@@ -9,14 +9,14 @@ def load_users(users):
             try:
                 login = user["login"]
                 password = user["password"]
-                status = user["status"]
+                expected_result = user["expected_result"]
             except KeyError as e:
                 print(f"Ошибка: данные отсутствуют {e}")
                 continue
 
             print(f"Login: {login}")
             print(f"Password: {password}")
-            print(f"Expected result: {status}")
+            print(f"Expected result: {expected_result}")
             print("-" * 24)
 
     except FileNotFoundError as e:

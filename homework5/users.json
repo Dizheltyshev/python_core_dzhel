@@ -2,26 +2,26 @@
     {
         "login": "Bingo",
         "password": "4321",
-        "status": "active"
+        "expected_result": "SUCCESS"
     },
     {
         "login": "Dane",
         "password": "1233",
-        "status": "active"
+        "expected_result": "FAIL"
     },
     {
         "login": "deadok",
         "password": "1234",
-        "status": "blocked"
+        "expected_result": "SUCCESS"
     },
     {
         "login": "jarmell",
         "password": "4322",
-        "status": "active"
+        "expected_result": "FAIL"
     },
     {
         "login": "jasper",
         "password": "123456",
-        "status": "blocked"
+        "expected_result": "SUCCESS"
     }
 ]
